@@ -1,0 +1,20 @@
+﻿using System;
+
+namespace {{Namespace}}
+{
+    {{AccessModifier}} interface I{{Name}} 
+    {
+        {{#each Events}}
+        {{.}}
+        {{/each}}
+        {{#each Properties}}
+        {{.}}
+        {{/each}}
+        {{#each Indexers}}
+        {{.}}
+        {{/each}}
+        {{#each Methods}}
+        {{.}}
+        {{/each }}
+    }
+}

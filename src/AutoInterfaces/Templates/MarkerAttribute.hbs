@@ -1,0 +1,32 @@
+﻿#nullable enable
+using System;
+
+#if !EXCLUDE_AUTOINTERFACE_ATTRIBUTE
+namespace {{Namespace}}
+{
+    /// <summary> 
+    /// When applied to a class this will mark it for the source generator to generate 
+    /// an interface for it automatically. 
+    /// </summary>
+    [AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("AutoInterfaces", "1.0.0")]
+    {{AccessModifier}} sealed class {{Name}} : Attribute 
+    {
+        /// <summary>
+        /// Gets the list of interfaces that this interface should inheirt from.
+        /// </summary>
+        public Type[] {{InheritancePropertyName}}? { get; set; }
+
+        /// <summary>
+        /// Gets or sets the namespace used by the interface, when not defined it used the current namespace.
+        /// </summary>
+        public string {{NamespacePropertyName}}? { get; set; }
+        
+        public {{Name}}()
+        {   
+            {{InheritancePropertyName}} = null;
+            {{NamespacePropertyName}} = null;
+        }
+    }
+}
+#endif 

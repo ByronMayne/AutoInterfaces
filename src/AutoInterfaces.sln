@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoInterfaces", "AutoInterfaces\AutoInterfaces.csproj", "{44966194-28BC-4FE6-A8ED-4C97206211DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{58A95A7B-E420-4D54-A418-BB23D75B1F4F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoInterfaces.Tests", "AutoInterfaces.Tests\AutoInterfaces.Tests.csproj", "{B0036727-2260-4B10-8792-DE1AEDD031CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44966194-28BC-4FE6-A8ED-4C97206211DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44966194-28BC-4FE6-A8ED-4C97206211DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44966194-28BC-4FE6-A8ED-4C97206211DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44966194-28BC-4FE6-A8ED-4C97206211DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0036727-2260-4B10-8792-DE1AEDD031CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0036727-2260-4B10-8792-DE1AEDD031CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0036727-2260-4B10-8792-DE1AEDD031CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0036727-2260-4B10-8792-DE1AEDD031CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41DB0469-5CE4-42DA-8DC2-1AA8363B8578}
+	EndGlobalSection
+EndGlobal
